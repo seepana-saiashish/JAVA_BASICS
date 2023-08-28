@@ -1,0 +1,15 @@
+Java is a computer programming language that helps the system to understand the user.
+Java is made in 1995 by Sun Microsystem led by James Goslin and now it is owned by Oracle Company.
+Java is a widely-used, versatile programming language renowned for its platform independence and object-oriented design.
+It is easy to maintain and handles the exceptions.
+Java is designed to crate applications that are WORA(Write Once Read Anywhere) which can run on any platform by using JVM.
+Java is employed in a plethora of applications, from web development (via frameworks like Spring) to mobile app creation (using Android), and enterprise-level systems (via Java EE).
+JVM stands for Java Virtual Machine.
+The terme IDE stands for Integrated Development Environment.
+Now let us see how the java works.
+We need both java and javac for the complilation.
+For every file we should give extension filename.java.
+In java we use semicolons at the end.
+To compile a java code we will write javac filename.java to check either the written code a correct code or wrong code.
+Java Virtual Machine(JVM) works on Operating System(OS) and Operating System(OS) works on Hardware.
+Java code is compiled into bytecode, which is executed by the JVM, enabling portability across different operating systems.
