@@ -1,0 +1,20 @@
+Database is a permanent (or) persistent collection of organized data,typically stored and managed electronically.
+We store the data using the database.During the processing of the code we store the data in variables.
+As we know that Java is a stronly typed language in the variables we will have different boxes like Strings,Integers and Floats.
+We have different types of data types to store the data.
+This data is mainly divided into two types those are primitive and non-primitive.
+The primitive data types are Integers,Float,Characters,boolean.
+The non primitive data types are Arrays,Strings,List.
+The default value for the datatypes int,long,shortand byte are 0.
+The sizes of the datatypes are as follows: 
+for Integer -------- 4 bytes
+    long    -------- 8 bytes
+    short   -------- 2 bytes
+    byte    -------- 1 byte(-127 to +128)
+The default values and sizes for float and double are as follows:
+for double ------- 0.0 L ---------- 8 bytes
+    float  ------- 0.0 f ---------- 4 bytes
+The default value for the Character is /u0000 and the size of the character is 2 bytes.
+The Character in Java are represented within single quots ('').
+The Strings in Jva are represented within double quots("").
+The default value for the boolean is false and the size of the boolean is 1 bit.
