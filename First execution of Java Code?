@@ -1,0 +1,20 @@
+class Hello{
+public static void main(String [] args){
+System.out.println("Hello World");
+}
+}
+In the above code the output will be Hello World.
+
+Here we created a java code and we will hava a java compiler which converts the code to a byte code and the byte code will go to JVM.
+Java Virtual Machine(JVM) says that we need to tell the system what is the first file last file.
+In java programming language the first file must contain the Main method.
+JVM should contain (public static void main) with arguments (String [] args) these are the signatures.
+As we know that java is object-oriented we need a class to create the object.
+Here while we are coding the above program Hello.class is created which is the byte code.
+While executing the code we will use javac Filename.java for compilation and java Filename for ruuning the program.
+When we want to run something we need a JAVA RUNTIME ENVIRONMENT(JRE).
+JRE contains a set of libraries and Java Virual Machine(JVM).
+An another important terminology is JAVA DEVELOPMENT KIT(JDK).
+Java Development Kit (JDK) is a software package that includes tools, libraries, and the Java Runtime Environment (JRE) necessary for developing and running Java applications. 
+JDK comprises compilers, debuggers, and other utilities that facilitate the creation and deployment of Java programs.
+WE LEARN AND PROCCESS THE DATA TO SOLVE REAL LIFE PROBLEMS USING VIRTUAL WORLD.
