@@ -1,0 +1,25 @@
+If anything happens automatically it is known as conversion.
+A Casting is an explict where we have to change it by some methods.
+NOTE:
+If we want to convert an integer to byte it will not work        ----  we have to do casting.
+But if we want to convert a byte to an integer it is easily done ----  it is conversion.
+Example 1:
+class Main{
+public static void main(String[]args){
+byte b = 127;
+int a = 258;
+b=(byte)a; //here the casting have been taken.
+System.out.println(b);
+}}
+Output : 2 (because here the 258 is converted to modulus of 258(258%) with the range of 256 hence the remaining value will be 2).
+NOTE:
+We can store the byte values to an integer ----- this process is called type promotion.
+Example 2:
+class Main{
+public static void main(String[]args){
+byte a = 3;
+byte b = 100;
+int c = a*b;
+System.out.println(c);
+}}
+Output: 300 (but it is beyond the byte range but can be stored in the integer).
