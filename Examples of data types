@@ -1,0 +1,23 @@
+class Main{
+public static void main(String[]args){
+int n = 9;   //9 is stored in n
+System.out.println(n);
+}}
+Output: 9 
+
+if we want float in the place of (int n) give (float n = 0.0 f).
+
+if we are given a Character and asked to incerement it then the code can be written as:
+
+class Main{
+public static void main(String[]args){
+char a = 'd';
+a++;          //the value of a that is d incremented by 1 so it will be e
+System.out.println(a);
+}}
+Output: e
+
+NOTE: 
+To keep the binary value we should use int n = 0b101;(that is 5)
+To use the hexadecimal numbers we wite int n = 00AC;
+If we give the value of double n = 64;  ---------- the output will be 64.0.
