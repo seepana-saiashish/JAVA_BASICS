@@ -1,0 +1,23 @@
+If we want a remainder use the modulus symbol (%).
+If we want to increase the same number then write (a = a+2).
+If we want to increase the number by 1 then write(a++).
+If we want to decrement the number by 1 then write(a--).
+Note:
+Here in java number++ ; ----------> POST-INCREMENT.
+             ++number ; ----------> Pre-increment.
+EXAMPLE:
+class Main{
+public static void main(String[]args){
+int a = 8;
+int a1 = a + 2;
+int a2 = a++;
+int a3 = ++a;
+System.out.println(a1);     //incremented by 2
+System.out.println(a2);    // it fetch the value and then increment
+System.out.println(a3);    // it will first inrement and then fetch the value
+}}
+
+OUTPUT:
+10
+8
+9
