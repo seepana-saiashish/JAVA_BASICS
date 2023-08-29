@@ -1,0 +1,21 @@
+We can add,subtract,multiply and divide the numbers by using the java programming.
+It can be achived by using the following code:
+Example:
+class Main{
+public static void main(String[]args){
+int a = 2;
+int b = 6;
+int add = a+b;
+int sub = a-b;
+int mul = a*b;
+int div = b/a;
+System.out.println("The addition of two numbers is:"+add);
+System.out.println("The subtraction of two numbers is:"+sub);
+System.out.println("The multiplication of two numbers is:"+mul);
+System.out.println("The division of two numbers is:"+div);
+}}
+Output:
+The addition of two numbers is:8
+The subtraction of two numbers is:-4
+The multiplication of two numbers is:12
+The division of two numbers is:3
