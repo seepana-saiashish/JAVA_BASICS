@@ -1,0 +1,18 @@
+A relational operator is a programming language construct or operator that tests or defines some kind of relation between two entities.
+In java the symbols are denoted as follows:
+> ---- (greater than)
+< ---- (less than) 
+== ---- (equals to)
+!= ---- (not equals to)
+<= ---- (less than or equals to)
+>= ---- (greater than or equals to)
+EXAMPLE:
+class Main{
+public static void main(String [] args){
+  int a = 7;
+  int  b = 23;
+  boolean c = a<b;
+  System.out.println(c);
+  }}
+Output:
+True
