@@ -1,0 +1,35 @@
+When we want to combine and classify two relational operators we will use Logical operators.
+The Logical operators we use are AND(&&) , OR(||) and NOT(!).
+AND and OR are both known as short circuits.
+The conditions for AND(&&) is:                       
+                    Result 
+           T   T      T
+           T   F      F
+           F   T      F
+           F   F      F
+The conditions for OR(||) is:                       
+                    Result 
+           T   T      T
+           T   F      T
+           F   T      T
+           F   F      F
+The conditions for NOT(!) is:                       
+                    Result 
+           T         F
+           F         T
+EXAMPLE:
+clas Main{
+public static void main(String[]args){
+int x = 6;
+int y = 9;
+int z = 10;
+int a = 22;
+boolean result1 = x > y && z < a;
+boolean result2 = x > y || z < a;
+System.out.println(result1);
+System.out.println(result2);
+}}
+
+Output:
+false
+true
